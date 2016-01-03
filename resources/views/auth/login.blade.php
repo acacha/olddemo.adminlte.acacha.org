@@ -1,11 +1,11 @@
-@extends('auth.auth')
+@extends('layouts.auth')
 
 @section('htmlheader_title')
     Log in
 @endsection
 
 @section('content')
-<body class="login-page">
+<body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
             <a href="{{ url('/home') }}"><b>Admin</b>LTE</a>
@@ -24,7 +24,7 @@
 
     <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
-    <form action="{{ url('/auth/login') }}" method="post">
+    <form action="{{ url('/login') }}" method="post">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email" name="email"/>
@@ -51,17 +51,17 @@
     <div class="social-auth-links text-center">
         <p>- OR -</p>
         <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using Facebook</a>
-        <a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i> Sign in using Google+</a>
+        <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using Google+</a>
     </div><!-- /.social-auth-links -->
 
-    <a href="{{ url('/password/email') }}">I forgot my password</a><br>
-    <a href="{{ url('/auth/register') }}" class="text-center">Register a new membership</a>
+    <a href="{{ url('/password/reset') }}">I forgot my password</a><br>
+    <a href="{{ url('/register') }}" class="text-center">Register a new membership</a>
 
 </div><!-- /.login-box-body -->
 
 </div><!-- /.login-box -->
 
-    @include('auth.scripts')
+    @include('layouts.partials.scripts_auth')
 
     <script>
         $(function () {
