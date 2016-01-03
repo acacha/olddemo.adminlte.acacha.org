@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7119d7672dcabe715afc944940b60d2",
-    "content-hash": "9cd2fce33ddf18c42caa09eeba0579c8",
+    "hash": "ee1b047413b46c017cc94ad81428adea",
+    "content-hash": "e6eb148e1965e0c14642d48750c08bdb",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
-            "version": "dev-master",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acacha/adminlte-laravel.git",
-                "reference": "15948a2f8bba8c8d8b6c6c689904296f684fad2b"
+                "reference": "4036a70a13c990783bad19b40016f4958af8c479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acacha/adminlte-laravel/zipball/15948a2f8bba8c8d8b6c6c689904296f684fad2b",
-                "reference": "15948a2f8bba8c8d8b6c6c689904296f684fad2b",
+                "url": "https://api.github.com/repos/acacha/adminlte-laravel/zipball/4036a70a13c990783bad19b40016f4958af8c479",
+                "reference": "4036a70a13c990783bad19b40016f4958af8c479",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "template",
                 "theme"
             ],
-            "time": "2016-01-03 13:31:58"
+            "time": "2016-01-03 12:53:44"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -1925,7 +1925,7 @@
             ],
             "authors": [
                 {
-                    "name": "François Zaninotto"
+                    "name": "Francois Zaninotto"
                 }
             ],
             "description": "Faker is a PHP library that generates fake data for you.",
@@ -3055,9 +3055,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "acacha/admin-lte-template-laravel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
