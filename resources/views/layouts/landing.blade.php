@@ -21,7 +21,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@acachawiki" />
-    <meta name="twitter:creator" content="@acacha" />
+    <meta name="twitter:creator" content="@acacha1" />
 
     <title>Acacha AdminLTE Laravel package template Landing page - Using Pratt</title>
 
