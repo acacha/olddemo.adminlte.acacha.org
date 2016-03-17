@@ -23,9 +23,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
     <script src="{{ asset('/js/smoothscroll.js') }}"></script>
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js%23pubid=ra-56ea87a09354b1be"></script>
-
 </head>
 
 
@@ -297,6 +294,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     })
 </script>
 
-
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56ea87a09354b1be"></script>
 </body>
 </html>
