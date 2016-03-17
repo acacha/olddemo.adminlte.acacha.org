@@ -6,8 +6,14 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
-    <meta name="author" content="Alvarez.is - BlackTie.co">
+    <meta name="description" content="Adminlte-laravel - Laravel 5 package that switchs default Laravel scaffolding/boilerplate to AdminLTE template with Bootstrap 3.0 and Pratt Landing age">
+    <meta name="author" content="Sergi Tur Badeas - acacha.org">
+
+    <meta property="og:title" content="Adminlte-laravel" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Adminlte-laravel - Laravel 5 package that switchs default Laravel scaffolding/boilerplate to AdminLTE template with Bootstrap 3.0 and Pratt Landing age" />
+    <meta property="og:url" content="http://demo.adminlte.acacha.org/" />
+    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE.png" />
 
     <title>Acacha AdminLTE Laravel package template Landing page - Using Pratt</title>
 
