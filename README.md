@@ -4,4 +4,4 @@ Demo page for [https://github.com/acacha/adminlte-laravel](acacha-adminte packag
 
 You can visit de demo site at URL:
 
-https://github.com/acacha/olddemo.adminlte.acacha.org.git
+https://demo.adminlte.acacha.org/
