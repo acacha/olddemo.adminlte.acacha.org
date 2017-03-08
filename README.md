@@ -1,2 +1,7 @@
 # demo.adminlte.acacha.org
-Demo page for acacha-adminte package
+
+Demo page for [https://github.com/acacha/adminlte-laravel](acacha-adminte package).
+
+You can visit de demo site at URL:
+
+https://github.com/acacha/olddemo.adminlte.acacha.org.git
